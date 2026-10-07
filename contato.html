@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baron Transportes</title>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="JAVASCRIPT/script.js"></script>
+</head>
+
+<body>
+
+    <div class="top" >
+
+            <img class="logo" src="IMAGENS/logo2.png" alt="Logo Baron">
+            <a class="instagram" href="https://www.instagram.com/transportesbaron?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <img src="IMAGENS/instagram2.png" alt="Instagram">
+            </a>
+
+         <div class="menu">
+
+            <button class="botao-menu" onclick="abrirMenu()">☰</button>
+
+            <div class="links-menu" id="linksMenu">
+                <a href="index.html">Home</a>
+                <a href="frota.html">Frota</a>
+                <a href="contato.html">Contato</a>
+                <a href="vagas.html">Vagas</a>
+            </div>
+
+         </div>
+    </div>
+
+    <section class="contato1">
+        <form name="contato" method="POST" data-netlify="true">
+
+            <input type="hidden" name="subject"
+                value="Novo contato pelo site - Baron Transportes">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+
+        </form>
+    </section>
+
+  
+     <section class="rodape">
+
+        <div class="contato">
+            <img src="IMAGENS/logo2.png" alt="logorodape">
+            
+            <div class="rodape-coluna">
+                <h3>Contato</h3>
+                <p><strong>Araçariguama (Matriz)</strong></p>
+                <p>Avenida Nossa Senhora da Penha, 550</p>
+                <p>CEP: 18148-000 - Ronda</p>
+                <p>Araçariguama – SP</p>
+                <p>Telefone: 11 99465-7856</p>
+            </div>
+
+            <div class="rodape-coluna">
+                <h3>Institucional</h3>
+                <a href="index.html">Início</a>
+                <a href="equipe.html">Sobre Nós</a>
+                <a href="frota.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="rodape-coluna">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.instagram.com/transportesbaron?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==">Instagram</a>
+            </div>
+
+        </div>
+        
+
+        <div class="fim">
+            <p>© 2026 Baron Transportes - Todos os direitos reservados.</p>
+            <p class="credito">
+                Desenvolvido por <strong>Fellype Amorim</strong>
+            </p>
+        </div>
+    </section>
+</body>
+
+
+</html>
